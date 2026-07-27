@@ -1,0 +1,21 @@
+为下列物联网平台接口编写工具, 供agent调用, 使用框架langchain-1.3.14, 定义在tools目录中, 请求使用requests发送, 配置使用.env定义
+
+物联网平台信息:
+host: http://iot.iuvtech.com
+token: 3f0d2638-e96d-426a-8dca-edbfc8d07094
+api统一前缀: /api
+api文档: @doc/物联网平台api.md
+物模型结构: @doc/物模型TSL.json
+projectId: 113
+
+暴露接口:
+iotThing/insertThingFun
+iotThing/thingListSearch
+iotThing/getThingModel
+iotProduct/listSearch
+iotProduct/create
+iotDevice/listSearch
+iotDevice/create
+iotDevice/invokeService
+iotDevice/setProperty
+iotDevice/getProperties
