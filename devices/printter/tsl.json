@@ -1,0 +1,32 @@
+{
+  "_ppk": {},
+  "events": [],
+  "productKey": "a1OAJSvGyYP",
+  "properties": [],
+  "services": [
+    {
+      "callType": "ASYNC",
+      "createTs": 1786174445313,
+      "custom": true,
+      "enableStorage": true,
+      "identifier": "print",
+      "inputParams": [
+        {
+          "dataSpecs": {
+            "dataType": "TEXT",
+            "length": 1024
+          },
+          "dataType": "TEXT",
+          "direction": "PARAM_INPUT",
+          "identifier": "filename",
+          "name": "文件名",
+          "paraOrder": 0
+        }
+      ],
+      "outputParams": [],
+      "productKey": "a1OAJSvGyYP",
+      "required": false,
+      "serviceName": "打印"
+    }
+  ]
+}

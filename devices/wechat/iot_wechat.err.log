@@ -1,0 +1,321 @@
+2026-08-08 15:52:30,383 [INFO] 启动企业微信服务...
+[2026-08-08T07:52:30.389603+00:00] [AiBotSDK] [INFO] Establishing WebSocket connection...
+[2026-08-08T07:52:30.392120+00:00] [AiBotSDK] [INFO] Connecting to WebSocket: wss://openws.work.weixin.qq.com...
+[2026-08-08T07:52:30.478272+00:00] [AiBotSDK] [INFO] WebSocket connection established, sending auth...
+[2026-08-08T07:52:30.482504+00:00] [AiBotSDK] [INFO] Auth frame sent
+[2026-08-08T07:52:30.648422+00:00] [AiBotSDK] [INFO] Authentication successful
+[2026-08-08T07:52:30.652534+00:00] [AiBotSDK] [DEBUG] Heartbeat timer started, interval: 30000ms
+[2026-08-08T07:52:30.652534+00:00] [AiBotSDK] [INFO] Authenticated
+2026-08-08 15:52:33,399 [INFO] iot_wechat 启动完成,进入后台运行
+2026-08-08 15:52:33,649 [INFO] 物联网平台连接成功 rc=0
+2026-08-08 15:52:33,652 [INFO] 物模型已启用,可接收服务调用并上报属性
+2026-08-08 15:52:43,410 [INFO] 上报变化属性: {'contact': '{"wr3o6IOgAA-Ht8y_sgCsCiEzJiO4DHWA": "AI部门群", "17320394612": "我"}'}
+[2026-08-08T07:53:00.658249+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T07:53:00.706620+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T07:53:30.679715+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T07:53:30.716859+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T07:54:00.701572+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T07:54:00.732465+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T07:54:30.715805+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T07:54:30.748229+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T07:55:00.739012+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T07:55:00.772144+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T07:55:30.753589+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T07:55:30.784475+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T07:56:00.776307+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T07:56:00.809843+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T07:56:30.783362+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T07:56:30.816305+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T07:57:00.803437+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T07:57:00.837296+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+2026-08-08 15:57:02,752 [INFO] 发送通知 userId=17320394612 message=早上好
+[2026-08-08T07:57:03.505289+00:00] [AiBotSDK] [DEBUG] Reply message sent via WebSocket, reqId: aibot_send_msg_1786175823504_3050ef33, queue length: 1
+[2026-08-08T07:57:03.834960+00:00] [AiBotSDK] [DEBUG] Reply ack received for reqId: aibot_send_msg_1786175823504_3050ef33
+[2026-08-08T07:57:10.589221+00:00] [AiBotSDK] [DEBUG] Received event callback: {"msgid": "485ad087b653608b5d7f1cf6480e1c2d", "aibotid": "aibNQlFp9lV1Lnce1X8YtSNw7nTVdmdzYfr", "chattype": "single", "from": {"userid": "17320394612"}, "msgtype": "event", "create_time": 1786175833, "event": {"eventtype": "enter_chat"}}
+[2026-08-08T07:57:10.594733+00:00] [AiBotSDK] [DEBUG] Reply message sent via WebSocket, reqId: IFleaYKSRLybpu7sYoLDmwAA, queue length: 1
+[2026-08-08T07:57:11.010773+00:00] [AiBotSDK] [DEBUG] Reply ack received for reqId: IFleaYKSRLybpu7sYoLDmwAA
+[2026-08-08T07:57:30.811504+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T07:57:30.844417+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+2026-08-08 15:57:50,953 [INFO] 发送通知 userId=wr3o6IOgAA-Ht8y_sgCsCiEzJiO4DHWA message=下午好
+[2026-08-08T07:57:51.273871+00:00] [AiBotSDK] [DEBUG] Reply message sent via WebSocket, reqId: aibot_send_msg_1786175871272_1dcb5846, queue length: 1
+[2026-08-08T07:57:51.631234+00:00] [AiBotSDK] [DEBUG] Reply ack received for reqId: aibot_send_msg_1786175871272_1dcb5846
+[2026-08-08T07:58:00.824821+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T07:58:00.855628+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T07:58:30.844995+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T07:58:30.876179+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T07:59:00.862524+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T07:59:00.895855+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T07:59:30.890325+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T07:59:30.922337+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:00:00.921660+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:00:00.952591+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:00:30.933689+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:00:30.967833+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:01:00.939609+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:01:00.974119+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:01:30.950068+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:01:30.983497+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:02:00.966713+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:02:01.001953+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:02:30.966178+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:02:31.000343+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:03:00.968886+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:03:01.001981+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:03:30.967003+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:03:30.999647+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:04:00.975767+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:04:01.011679+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:04:30.988888+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:04:31.024793+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:05:01.005587+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:05:01.038585+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:05:31.018556+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:05:31.054304+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:06:01.061331+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:06:01.113477+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:06:31.072264+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:06:31.107829+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:07:01.083636+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:07:01.117573+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:07:31.106591+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:07:31.140816+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:08:01.121883+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:08:01.155309+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:08:31.122618+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:08:31.156317+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:09:01.140542+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:09:01.290063+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:09:31.150525+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:09:31.183997+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:10:01.167561+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:10:01.201124+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:10:31.180563+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:10:31.234297+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:11:01.196830+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:11:01.229927+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:11:31.206522+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:11:31.241078+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:12:01.232972+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:12:01.267285+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:12:31.238150+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:12:31.269642+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:13:01.260198+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:13:01.297558+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:13:31.270893+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:13:31.306887+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:14:01.284085+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:14:01.318514+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:14:31.308231+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:14:31.344285+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:15:01.318484+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:15:01.351889+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:15:31.331650+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:15:31.367878+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:16:01.354222+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:16:01.389840+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:16:31.376071+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:16:31.411786+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:17:01.389094+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:17:01.424411+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:17:31.398856+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:17:31.432387+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:18:01.411128+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:18:01.449345+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:18:31.433995+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:18:31.902629+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:19:01.438886+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:19:01.469856+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:19:31.427779+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:19:31.462846+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:20:01.439715+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:20:01.474532+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:20:31.450293+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:20:31.483206+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:21:01.467877+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:21:01.505270+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:21:31.487761+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:21:31.522265+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:22:01.489774+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:22:01.525086+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:22:31.514215+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:22:31.547610+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:23:01.519819+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:23:01.549104+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:23:31.530780+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:23:31.565258+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:24:01.540833+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:24:01.573077+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:24:31.559046+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:24:31.588777+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:25:01.563140+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:25:01.594026+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:25:31.589136+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:25:31.622998+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:26:01.585821+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:26:01.620391+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:26:31.607714+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:26:31.640377+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:27:01.610356+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:27:01.643341+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:27:31.616027+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:27:31.651309+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:28:01.636120+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:28:01.673534+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:28:31.644202+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:28:31.678206+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:29:01.660833+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:29:01.693840+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:29:31.680981+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:29:31.714760+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:30:01.697167+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:30:01.730217+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:30:31.718004+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:30:31.750243+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:31:01.722478+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:31:01.756378+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:31:31.745635+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:31:31.778219+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:32:01.753682+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:32:01.787377+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:32:31.772113+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:32:31.804650+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:33:01.791334+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:33:01.820817+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:33:31.806775+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:33:31.840725+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:34:01.821723+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:34:02.055395+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:34:31.842169+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:34:31.876648+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:35:01.841092+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:35:01.876200+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:35:31.837041+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:35:31.870888+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:36:01.855739+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:36:01.887670+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:36:31.877735+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:36:32.378947+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:37:01.888538+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:37:01.924425+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:37:31.890473+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:37:31.924785+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:38:01.894566+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:38:01.929799+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:38:31.914929+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:38:31.946460+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:39:01.924968+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:39:01.961812+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:39:31.948068+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:39:31.982066+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:40:01.954768+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:40:02.011127+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:40:31.961172+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:40:31.992034+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:41:01.965438+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:41:01.999638+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:41:31.975967+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:41:32.008999+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:42:01.989447+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:42:02.021297+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:42:32.005979+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:42:32.036817+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:43:02.028893+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:43:02.062825+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:43:32.041190+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:43:32.074315+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:44:02.052884+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:44:02.086911+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:44:32.069987+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:44:32.100802+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:45:02.087313+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:45:02.120187+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:45:32.104453+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:45:32.138112+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:46:02.122538+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:46:02.153040+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:46:32.125494+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:46:32.159941+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:47:02.139675+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:47:02.178114+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:47:32.145126+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:47:32.179037+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:48:02.169226+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:48:02.202075+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:48:32.175987+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:48:32.210608+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:49:02.195702+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:49:02.228826+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:49:32.221355+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:49:32.255366+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:50:02.248875+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:50:02.282968+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:50:32.253073+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:50:32.285773+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:51:02.253094+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:51:02.288431+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:51:32.276432+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:51:32.309264+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:52:02.286951+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:52:02.634215+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:52:32.645250+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:52:33.416847+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:53:03.429878+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:53:03.914600+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:53:33.472809+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:53:33.507257+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:54:03.494218+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:54:03.526312+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:54:33.502559+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:54:33.539958+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:55:03.526231+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:55:03.769394+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:55:33.530021+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:55:33.558342+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:56:03.536674+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:56:03.570534+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:56:33.565573+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:56:33.597711+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:57:03.592131+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:57:03.629651+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:57:33.599387+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:57:33.632074+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:58:03.609978+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:58:03.640954+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:58:33.620300+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:58:33.653791+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:59:03.640093+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:59:03.676296+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T08:59:33.630824+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T08:59:33.666037+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T09:00:03.639927+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T09:00:03.671840+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T09:00:33.649614+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T09:00:33.682464+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T09:01:03.662406+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T09:01:03.694841+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T09:01:33.674432+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T09:01:33.707296+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T09:02:03.686610+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T09:02:03.720703+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T09:02:33.696409+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T09:02:33.731206+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T09:03:03.713289+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T09:03:03.747567+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T09:03:33.724660+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T09:03:33.758127+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T09:04:03.741435+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T09:04:03.778199+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T09:04:33.747398+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T09:04:33.780885+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T09:05:03.753044+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T09:05:03.783932+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T09:05:33.770028+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T09:05:33.800685+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T09:06:03.788022+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T09:06:03.821443+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T09:06:33.813337+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T09:06:33.848822+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T09:07:03.837716+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T09:07:03.870748+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack
+[2026-08-08T09:07:33.838127+00:00] [AiBotSDK] [DEBUG] Heartbeat sent
+[2026-08-08T09:07:33.870626+00:00] [AiBotSDK] [DEBUG] Received heartbeat ack

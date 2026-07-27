@@ -1,0 +1,12 @@
+.idea
+.claude
+.env
+data/chat/
+data/log/
+data/temp/
+#devices/
+devices/iot_*
+devices/data/
+devices/wechat/downloads/
+docker/
+static/dashboard/

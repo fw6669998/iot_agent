@@ -1,0 +1,94 @@
+{
+  "_ppk": {},
+  "events": [],
+  "productKey": "a1XKV83f73J",
+  "properties": [
+    {
+      "createTs": 1786107815005,
+      "custom": true,
+      "customFlag": true,
+      "dataSpecs": {
+        "dataType": "TEXT",
+        "length": 100
+      },
+      "dataType": "TEXT",
+      "enableStorage": true,
+      "identifier": "system_name",
+      "name": "系统名",
+      "productKey": "a1XKV83f73J",
+      "required": false,
+      "rwFlag": "READ_ONLY",
+      "std": false
+    },
+    {
+      "createTs": 1786107815006,
+      "custom": true,
+      "customFlag": true,
+      "dataSpecs": {
+        "dataType": "TEXT",
+        "length": 100
+      },
+      "dataType": "TEXT",
+      "enableStorage": true,
+      "identifier": "host_name",
+      "name": "主机名",
+      "productKey": "a1XKV83f73J",
+      "required": false,
+      "rwFlag": "READ_ONLY",
+      "std": false
+    },
+    {
+      "createTs": 1786107815007,
+      "custom": true,
+      "customFlag": true,
+      "dataSpecsList": [
+        {
+          "custom": true,
+          "dataType": "BOOL",
+          "name": "未锁屏",
+          "value": 0
+        },
+        {
+          "custom": true,
+          "dataType": "BOOL",
+          "name": "已锁屏",
+          "value": 1
+        }
+      ],
+      "dataType": "BOOL",
+      "enableStorage": true,
+      "identifier": "lock_status",
+      "name": "锁屏状态",
+      "productKey": "a1XKV83f73J",
+      "required": false,
+      "rwFlag": "READ_ONLY",
+      "std": false
+    }
+  ],
+  "services": [
+    {
+      "callType": "ASYNC",
+      "createTs": 1786107815008,
+      "custom": true,
+      "enableStorage": true,
+      "identifier": "lock_screen",
+      "inputParams": [],
+      "outputParams": [],
+      "productKey": "a1XKV83f73J",
+      "required": false,
+      "serviceName": "锁屏"
+    },
+    {
+      "callType": "ASYNC",
+      "createTs": 1786107815009,
+      "custom": true,
+      "enableStorage": true,
+      "identifier": "start_remote_software",
+      "inputParams": [],
+      "outputParams": [],
+      "productKey": "a1XKV83f73J",
+      "required": false,
+      "serviceName": "开启远程软件"
+    }
+  ]
+}

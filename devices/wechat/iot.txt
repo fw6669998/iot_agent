@@ -1,0 +1,7 @@
+接口方法说明
+获取联系人:	contracts.get_contacts
+添加联系人:	contracts.add_contact
+通知:	notify.notify
+
+注意:
+在连接物联网云平台前起启动wechat服务, 启动代码写在连接云平台的代码一起

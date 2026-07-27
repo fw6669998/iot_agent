@@ -1,0 +1,6 @@
+wecom-aibot-python-sdk
+dotenv
+pywin32
+aliyun-iot-linkkit==1.2.13
+paho-mqtt==1.6.1
+psutil

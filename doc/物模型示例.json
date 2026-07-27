@@ -1,0 +1,38 @@
+{
+  "properties": [
+    {
+      "name": "最近打印文件",
+      "identifier": "recent_file",
+      "required": false,
+      "accessMode": "rw",
+      "dataType": {
+        "type": "text",
+        "specs": {
+          "length": "200"
+        }
+      }
+    }
+  ],
+  "services": [
+    {
+      "name": "打印",
+      "identifier": "print",
+      "callType": "async",
+      "required": false,
+      "inputData": [
+        {
+          "name": "文件名",
+          "identifier": "fileName",
+          "required": true,
+          "dataType": {
+            "type": "text",
+            "specs": {
+              "length": 256
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "events": []
+}

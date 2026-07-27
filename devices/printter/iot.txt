@@ -1,0 +1,2 @@
+使用现成接口方法完成功能
+打印方法: 	printer.print_file

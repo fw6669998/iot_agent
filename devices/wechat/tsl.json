@@ -1,0 +1,96 @@
+{
+  "_ppk": {},
+  "events": [],
+  "productKey": "a1td1VNnCDp",
+  "properties": [
+    {
+      "createTs": 1786112093173,
+      "custom": true,
+      "customFlag": true,
+      "dataSpecs": {
+        "dataType": "TEXT",
+        "length": 100
+      },
+      "dataType": "TEXT",
+      "enableStorage": true,
+      "identifier": "contact",
+      "name": "联系人",
+      "productKey": "a1td1VNnCDp",
+      "required": false,
+      "rwFlag": "READ_ONLY",
+      "std": false
+    }
+  ],
+  "services": [
+    {
+      "callType": "ASYNC",
+      "createTs": 1786112093174,
+      "custom": true,
+      "enableStorage": true,
+      "identifier": "add_contact",
+      "inputParams": [
+        {
+          "dataSpecs": {
+            "dataType": "TEXT",
+            "length": 100
+          },
+          "dataType": "TEXT",
+          "direction": "PARAM_INPUT",
+          "identifier": "userId",
+          "name": "用户ID",
+          "paraOrder": 0
+        },
+        {
+          "dataSpecs": {
+            "dataType": "TEXT",
+            "length": 100
+          },
+          "dataType": "TEXT",
+          "direction": "PARAM_INPUT",
+          "identifier": "name",
+          "name": "名称",
+          "paraOrder": 1
+        }
+      ],
+      "outputParams": [],
+      "productKey": "a1td1VNnCDp",
+      "required": false,
+      "serviceName": "添加联系人"
+    },
+    {
+      "callType": "ASYNC",
+      "createTs": 1786112093175,
+      "custom": true,
+      "enableStorage": true,
+      "identifier": "send_notification",
+      "inputParams": [
+        {
+          "dataSpecs": {
+            "dataType": "TEXT",
+            "length": 1024
+          },
+          "dataType": "TEXT",
+          "direction": "PARAM_INPUT",
+          "identifier": "message",
+          "name": "消息",
+          "paraOrder": 0
+        },
+        {
+          "dataSpecs": {
+            "dataType": "TEXT",
+            "length": 100
+          },
+          "dataType": "TEXT",
+          "direction": "PARAM_INPUT",
+          "identifier": "userId",
+          "name": "用户ID",
+          "paraOrder": 1
+        }
+      ],
+      "outputParams": [],
+      "productKey": "a1td1VNnCDp",
+      "required": false,
+      "serviceName": "发送通知"
+    }
+  ]
+}
