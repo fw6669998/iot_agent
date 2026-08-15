@@ -10,3 +10,4 @@ devices/data/
 devices/wechat/downloads/
 docker/
 static/dashboard/
+*.log
